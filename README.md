@@ -4,8 +4,7 @@
 <br/>
 
 ~~~
-Mission :  transcrire en HTML et en CSS l'image ci-dessous 
-           en s'aidant de Bootstrap
+Mission :  transcrire en HTML et en CSS l'image ci-dessous en s'aidant de Bootstrap
 ~~~
 
 
