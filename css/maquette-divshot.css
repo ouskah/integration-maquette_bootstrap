@@ -1,0 +1,244 @@
+/*------------------ Page ---------------------*/
+body {
+background-color: #3f4342;
+}
+
+/*------------------ Header ---------------------*/
+header {
+    width: 100%;
+    min-height: 90px;
+    background-color: #37bbd2;
+}
+
+
+header img {
+    
+  margin-top: 5px;  
+    
+}
+
+header span {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 45px;
+    
+}
+
+/*------------------ Images ---------------------*/
+.img-big {
+    position: relative;
+    min-height: 500px;
+}
+
+.img-small {
+    position: relative;
+    min-height: 250px;
+}
+row, col-md-4, col-md-6, col-md-12 {
+    margin: 0;
+    padding:0;
+}
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*------------------ Buttons ---------------------*/
+a {
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+p, span {
+    display: inline-block;
+    margin: 20px 30px 10px 20px;
+    transform: translateY(-50%);
+}
+
+/*------------------ Colors ---------------------*/
+.white { background-color: #fff;}
+.grey { background-color: #999;}
+
+.red { background-color: #f9897d;}
+.dark-red { background-color: #f8504d;}
+
+.violet { background-color: #b483ff;}
+.dark-violet { background-color: #7f56c6;}
+
+.green { background-color: #b7f6c9;}
+.dark-green { background-color: #34ebb3;}
+
+.yellow { background-color: #fbff86;}
+.dark-yellow { background-color: #fbed1a;}
+
+.blue { background-color: #7efeff;}
+.dark-blue { background-color: #3ea8f6;}
+
+.black {
+    color:#3f4342;
+}
+
+
+/* bordures */
+
+.border-right {
+  border-right: 5px solid #3f4342;;
+}
+
+.border-bottom {
+  border-bottom: 5px solid #3f4342;;
+}
+
+
+/* centrage vertical */
+.img-center-v { /* centrage verticale des images ou des blocks */
+  position: absolute; /* on place l'élément par rapport à son élément parent */
+  top: 40%; /* on déplace l'élément de la moitié de la hauteur de l'élément parent (par rapport au bord haut)*/ 
+  transform: translateY(-50%); /* re-centrage de l'élément à partir de son centre vertical*/
+  -webkit-transform: translateY(-40%);
+  -moz-transform: translateY(-40%);
+  -ms-transform: translateY(-40%);
+  -o-transform: translateY(-40%);
+left: 40%;
+  /*display: inline-block; /* car élément de type inline et pourque la transform soit valide pourtous les navigateurs */
+
+/* -----
+
+html, body {
+    margin: 0 0;
+    padding: 0 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #484442;
+}
+
+
+/* common css - body
+.border {
+  border: 1px solid #484442;
+}
+
+.border-top-right {
+  border-top: 3px solid #484442;
+  border-right: 3px solid #484442;
+}
+
+.border-top {
+  border-top: 3px solid #484442;
+}
+
+.border-right {
+  border-right: 3px solid #484442;
+}
+
+.border-bottom {
+  border-bottom: 3px solid #484442;
+}
+
+.img-center-v { /* centrage verticale des images ou des blocks
+  position: relative; /* on place l'élément par rapport à son élément parent
+  top: 50%; /* on déplace l'élément de la moitié de la hauteur de l'élément parent (par rapport au bord haut) 
+  transform: translateY(-50%); /* re-centrage de l'élément à partir de son centre vertical
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  display: inline-block; /* car élément de type inline et pourque la transform soit valide pourtous les navigateurs */
+
+/* header
+
+header {
+    min-height: 100px;
+    width: 100%;
+    
+}
+
+.img-header {
+ margin-left: 20px;
+border-radius: 100%;
+}
+
+.span-header1 {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  padding-left: 20px;
+}
+
+.span-header2 {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+}
+
+/*container-fluid
+
+.title-white {
+  font-size: 15px;
+  font-weight: bold;
+  height: 5%;
+  width: 100%;
+  color: white;
+  padding-left: 10px;
+}
+
+.title-grey {
+  font-size: 15px;
+  font-weight: bold;
+  height: 5%;
+  width: 100%;
+  color: grey;
+  padding-left: 10px;
+}
+
+i {
+  padding-right: 10px;
+}
+
+/* col-md-4 (1 sur 3)
+
+.col-md-4 {
+  padding: 0 0;
+  margin: 0 0;
+}
+
+#leaderboard { /* 5% de height restant
+  background-color: graytext;
+}
+
+.col-md-6 {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.img-container2 {
+  height: 30%;
+  width: 100%;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+#img-container2-enter {
+  background-color: #f54560;
+}
+
+#enter {
+  background-color: red;
+}
+
+#img-container2-sports {
+  background-color: violet;
+}
+
+#sports {
+  background-color: blueviolet;
+}
